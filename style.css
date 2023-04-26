@@ -1,0 +1,15 @@
+
+textarea{
+    width: 70%;
+    max-width:250px;
+}
+body {
+    color: rgb(43, 142, 172);
+    text-align: center;
+    font-size: large;
+
+}
+h1 {
+    color: rgb(129, 220, 248);
+
+}
