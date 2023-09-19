@@ -25,8 +25,8 @@ A função do projeto cadastro é conhecer mas as pessoas saber mas sobre elas e
 * ``HTML``
 ## Fontes consultadas 
 
-* [Alura](https://www.alura.com.br/artigos/escrever-bom-readme) - Como escrever um README incrível no seu Github
-* [lohhans](https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89) - Um modelo para fazer um bom readme
+* [Alura](https://www.alura.com.br/artigos/escrever-bom-readme) - Como escrever um README incrível no seu Github.
+* [lohhans](https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89) - Um modelo para fazer um bom readme.
 
 ## Autores
 FEITO POR EVELLYN FLAVIANE.
