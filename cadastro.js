@@ -2,20 +2,9 @@
 
 //Função para limpar formulário
 //Arrow Function
-const limparFormulario = () => {    
-    document.getElementById('nome').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('campo_data').value = '';
-    document.getElementById('senha').value = '';
-    document.getElementById('confirmandosenha').value = '';
-    document.getElementById('ddd').value = '';
-    document.getElementById('telefone').value = '';
-    document.getElementById('cpf').value = '';
+const limparFormulario = () => {
     document.getElementById('rua').value = '';
     document.getElementById('bairro').value = '';
-    document.getElementById('cep').value = '';
-    document.getElementById('endereço').value = '';
-    document.getElementById('numero').value = '';
     document.getElementById('cidade').value = '';
     document.getElementById('estado').value = '';
 }
@@ -25,19 +14,8 @@ const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 
 //Responsável pelo preenchimento do formulário 
 const preencherFormulario = (endereco) => {
-    document.getElementById('nome').value = endereco.nome;
-    document.getElementById('email').value = endereco.email;
-    document.getElementById('campo_data').value = endereco.campodata;
-    document.getElementById('senha').value = endereco.data;
-    document.getElementById('confirmandosenha').value = endereco.confirmandosenha;
-    document.getElementById('ddd').value = endereco.ddd;
-    document.getElementById('telefone').value = endereco.telefone;
-    document.getElementById('cpf').value = endereco.cpf;
-    document.getElementById('rua').value = endereco.rua;
+    document.getElementById('rua').value = endereco.logradouro;
     document.getElementById('bairro').value = endereco.bairro;
-    document.getElementById('cep').value = endereco.cep;
-    document.getElementById('endereço').value = endereco.endereço;
-    document.getElementById('numero').value = endereco.numero;
     document.getElementById('cidade').value = endereco.localidade;
     document.getElementById('estado').value = endereco.uf;
 }
