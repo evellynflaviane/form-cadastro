@@ -8,7 +8,7 @@
 [Autores](#autores)
 
 # Projeto de cadastro
-![capa do projeto](img/capa%20do%20projeto.png)
+![capa do projeto](imagem.png)
 Projeto de cadastro foi criado para a loja conhecer melhor as pessoas e saber mas.
 ## Descrição
 Projeto de cadastro com nome, email, rua, bairro,cep etc. Quando digitar cep da sua rua ira selecionar automaticamente seu endereço da rua. 
