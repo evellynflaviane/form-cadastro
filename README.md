@@ -11,7 +11,7 @@
 ![capa do projeto](img/capa%20do%20projeto.png)
 Projeto de cadastro foi criado para a loja conhecer melhor as pessoas e saber mas.
 ## Descrição
-Projeto calendario foi criado para melhorar a loja com ele podemos saber nome,telefone,endereço etc.
+Projeto de cadastro com nome, email, rua, bairro,cep etc. Quando digitar cep da sua rua ira selecionar automaticamente seu endereço da rua. 
 
 ## Introdução
 O projeto foi para melhorar as informações pessoais.
