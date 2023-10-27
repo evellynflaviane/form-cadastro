@@ -2,12 +2,15 @@
 
 //Função para limpar formulário
 //Arrow Function
+
+/*
 const limparFormulario = () => {
     document.getElementById('rua').value = '';
     document.getElementById('bairro').value = '';
     document.getElementById('cidade').value = '';
     document.getElementById('estado').value = '';
-}
+}*/
+
 // Verifica se CEP é válido
 const eNumero = (numero) => /^[0-9]+$/.test(numero);
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
@@ -21,8 +24,8 @@ const preencherFormulario = (endereco) => {
 }
 // Função para consumo de API da Via CEP
 const pesquisarCep = async() => {
-    limparFormulario();
-    const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+    //limparFormulario();
+    const url = `https://viacep.com.br/ws/${cep.value}/json/`;
 
     if(cepValido(cep.value)){
         const dados = await fetch(url); // esperar
